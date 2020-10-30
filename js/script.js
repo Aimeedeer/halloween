@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function timeout() {
     console.log(ghost);
 
-    let x = getRandomInt(100);
-    let y = getRandomInt(100);
+    let x = getRandomInt(500)-250;
+    let y = getRandomInt(500)-250;
     ghost.style=`transform: translate(${x}px, ${y}px)`;
 
+   
     setTimeout(timeout, 300);
 }
 
