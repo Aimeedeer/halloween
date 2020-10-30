@@ -10,3 +10,10 @@ html {
     width: 25%;
     transition: transform .5s linear;
 }
+
+#cocoverse {
+    font-family: 'Lobster', cursive;
+    color: #FF7518;
+    font-size: 2em;
+    text-align: center;
+}
